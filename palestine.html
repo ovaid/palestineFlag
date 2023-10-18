@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestine Flag</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #c0c3c1;
+            
+            opacity: .8;
+
+        }
+        /* .container-fluid{
+            background: url("https://gist.githubusercontent.com/ratnabh/da8213a27700e0e1c2d1c81961070f6f/raw/3608a5072f4e392b852e5cc3c244841025b32c81/wave1.svg") repeat-x; 
+            position: absolute;
+            opacity:0.2;
+            bottom: 0px;
+            width: 100wh;
+            height: 100vh;
+            animation: wave 4s linear infinite;
+            transform: translate3d(0, 0, 0);
+        } */
+
+        .flag {
+            width: 700px;
+            height: 400px;
+            border: none;
+            position: relative;
+            overflow: hidden;
+            /* background-image:url("./images/stock-vector-children-head-looking-up-silhouette-vector-517527847.jpg") !important; */
+            opacity: 1;
+
+       
+            
+
+        }
+        /* @keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1920px;
+  }
+} */
+
+        .stripe {
+            height: 33.33%;
+            width: 100%;
+        }
+
+        .black {
+            background-color: #000;
+        }
+
+        .white {
+            background-color: #fff;
+        }
+
+        .green {
+            background-color: #00a751;
+        }
+
+        .triangle {   
+             width: 0;
+             height: 0;
+             border-left: 172px solid transparent;
+             border-right: 214px solid transparent;
+             border-bottom: 338px solid red;
+             position: absolute;
+             top: 10px;
+             left: 0;
+             transform: translateX(-31.3%) translateY(19.8%) rotate(-147.6deg);
+        }
+        img{
+            height: 136px;
+            width: 70px;
+            position: absolute;
+            transform: translateX(567.7%) translateY(-196.2%) rotate(0deg);
+            
+            color: black;
+            border: none;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+        video{
+            height: 136px;
+    width: 123px;
+    position: absolute;
+    transform: translateX(306.7%) translateY(-197.2%) rotate(0deg);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    /* overflow: hidden; */
+    opacity: .2;
+    background-color: white;
+    border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" style="position: relative;">
+        <div class="flag">
+            <div class="stripe black"></div>
+            <div class="stripe white"></div>
+            <div class="stripe green"></div>
+        </div>
+        <div class="triangle"></div>
+        <img src="./images/stock-vector-children-head-looking-up-silhouette-vector-517527847.jpg" alt="">
+        <!-- <video src="./images/video blood.webm" controls autoplay loop></video> -->
+    </div>
+</body>
+</html>
